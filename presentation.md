@@ -8,7 +8,7 @@
 
 # Disclaimer
 This talk is **not** about running **ABAP** on HCP 
-<img data-src="images/no_abap.png" wigth="25%">
+<img data-src="images/no_abap.png" width="25%">
 Sorry
 
 
@@ -20,11 +20,23 @@ Sorry
 > Cloud Foundry services are available as beta on SAP HANA Cloud Platform
 
 
-# CF Service on HCP
-Planned SAP HCP target architeture 
+# CF Services on HCP
+Planned SAP HCP architeture 
 <img data-src="images/PlannedArchitecture.png">
 
 
+## CF Services available in the Beta
+* Clound Foundry build packs
+  * Java
+  * Node.js
+  * Go
+  * PHP
+  * ...
+* Services available trough marketplace
+  * Redis
+  * RabbitMQ
+  * MongoDB
+  * PostgreSQL
 
 # Demo
 <!-- .slide: data-background="images/demo.png" -->
