@@ -38,6 +38,8 @@ Planned SAP HCP architeture
   * MongoDB
   * PostgreSQL
 
+
+
 # Demo
 <!-- .slide: data-background="images/demo.png" -->
 Demo
