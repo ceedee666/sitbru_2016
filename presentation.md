@@ -54,10 +54,10 @@ Demo
 ##Demo Cheat Sheet
 1. Subscribe to Cloud Foundry Services (Beta) at [https://market.yaas.io/](https://market.yaas.io/)
 1. Create new project in [builder](https://builder.yaas.io)
-1. Deploy the app using CF command line interface
+1. Deploy the [app](sitbru-demo.cfapps.us10.hana.ondemand.com) using CF command line interface 
 
 ``` Bash
 cf api https://api.cf.us10.hana.ondemand.com
 cf login
-cf push sitbru_2016 -b https://github.com/gogolok/cloudfoundry-buildpack-elixir -c "mix phoenix.server"
+cf push sitBRU_Demo -b https://github.com/gogolok/cloudfoundry-buildpack-elixir -c "mix phoenix.server"
 ```
