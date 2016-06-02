@@ -44,8 +44,6 @@ Planned SAP HCP architeture
 
 
 
-
-
 # Demo
 <!-- .slide: data-background="images/demo.png" -->
 Demo
