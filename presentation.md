@@ -16,6 +16,7 @@ This talk is **not** about running **ABAP** on HCP
 
 
 # Introduction
+
 * Lots of announcements around SAPPHIRE NOW
 * One announcement did not get a lot of attention
 
@@ -52,7 +53,6 @@ Demo
 1. Subscribe to Cloud Foundry Services (Beta) at [https://market.yaas.io/](https://market.yaas.io/)
 1. Create new project in [builder](https://builder.yaas.io)
 1. Deploy the app using CF command line interface
-
 
 ``` Bash
 cf api https://api.cf.us10.hana.ondemand.com
