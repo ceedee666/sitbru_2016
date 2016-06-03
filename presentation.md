@@ -26,7 +26,7 @@ This talk is **not** about running **ABAP** on HCP
 
 # CF Services on HCP
 Planned SAP HCP architeture 
-<img data-src="images/PlannedArchitecture2.png">
+<img data-src="images/PlannedArchitecture2.png" width="95%">
 
 
 ## CF Services Beta Package Content
