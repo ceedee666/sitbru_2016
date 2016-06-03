@@ -1,4 +1,25 @@
 <div class="jumbotron">
   <h2><%= gettext "Hello #sitBRU 2016" %></h2>
-  <p class="lead">This is a elixir Web application running on SAP HCP using a custom build pack!</p>
+  <p class="lead">This is an elixir Web application running on SAP HCP using a custom build pack!</p>
+  <p>Furthermore we are also reading some data from the HCP IoT services.</p>
 </div>
+
+  <div class="col-md-6">
+    <table class="table table-striped">
+      <thead>
+         <tr>
+           <th>Humidity</th>
+           <th>Temperature</th>
+         </tr>
+       </thead>
+       <tbody>
+         <%= for d <- @data do %>
+             <tr>
+               <td> <%= d.humidity %> </td>
+               <td> <%= d.temperature %> </td>
+              </tr>
+         <% end %>
+       </tbody>
+    </table>
+ </div>
+
