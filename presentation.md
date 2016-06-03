@@ -26,7 +26,11 @@ This talk is **not** about running **ABAP** on HCP
 
 # CF Services on HCP
 Planned SAP HCP architeture 
-<img data-src="images/PlannedArchitecture.png">
+<img data-src="images/PlannedArchitecture2.png">
+
+
+## CF Services Beta Package Content
+<img data-src="images/package_content.jpg">
 
 
 ## CF Services available in the Beta
@@ -52,7 +56,7 @@ Demo
 ##Demo Cheat Sheet
 1. Subscribe to Cloud Foundry Services (Beta) at [https://market.yaas.io/](https://market.yaas.io/)
 1. Create new project in [builder](https://builder.yaas.io)
-1. Deploy the [app](sitbru-demo.cfapps.us10.hana.ondemand.com) using CF command line interface 
+1. Deploy the [app](https://sitbru-demo.cfapps.us10.hana.ondemand.com) using CF command line interface 
 
 ``` Bash
 cf api https://api.cf.us10.hana.ondemand.com
